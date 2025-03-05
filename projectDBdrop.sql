@@ -1,0 +1,17 @@
+drop table S24_S003_T9_Employee cascade constraints purge; 
+drop table S24_S003_T9_Customer cascade constraints purge; 
+drop table S24_S003_T9_Customer_Phone cascade constraints purge; 
+drop table S24_S003_T9_Customer_Email cascade constraints purge; 
+drop table S24_S003_T9_Employee_Phone cascade constraints purge; 
+drop table S24_S003_T9_Employee_Email cascade constraints purge; 
+drop table S24_S003_T9_Nutritionist cascade constraints purge; 
+drop table S24_S003_T9_Trainer cascade constraints purge; 
+drop table S24_S003_T9_Employee_Supervises cascade constraints purge; 
+drop table S24_S003_T9_Assign_Nutritionist cascade constraints purge; 
+drop table S24_S003_T9_Assign_Trainer cascade constraints purge; 
+drop table S24_S003_T9_Customer_HealthConditions cascade constraints purge; 
+drop sequence  SEQ_S24_S003_T9_CustomerLogs;
+drop table S24_S003_T9_CustomerLogs cascade constraints purge; 
+drop table S24_S003_T9_Plan cascade constraints purge; 
+drop table S24_S003_T9_Customer_Enrolls cascade constraints purge;
+commit;
